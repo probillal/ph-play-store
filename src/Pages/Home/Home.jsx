@@ -1,7 +1,13 @@
+import Banner from "../../Components/HomePage/Banner";
+import Stats from "../../Components/HomePage/Stats";
+import TrendingApps from "../../Components/HomePage/TrendingApps";
+
 const Home = () => {
   return (
     <div>
-      <h2>Home page</h2>
+      <Banner></Banner>
+      <TrendingApps></TrendingApps>
+      <Stats></Stats>
     </div>
   );
 };
