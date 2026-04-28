@@ -68,9 +68,9 @@ const Navbar = () => {
           </div>
           <div className="flex items-center gap-1">
             <img src={logoImage} alt="LogoImage" className="w-[40px]" />
-            <a className="btn btn-ghost text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
+            <h4 className="text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
               HERO.IO
-            </a>
+            </h4>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
