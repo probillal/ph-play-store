@@ -1,39 +1,18 @@
-import { NavLink } from "react-router";
 import logoImage from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
+import MyNavLink from "../Shared/MyNavLink";
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            `font-semibold mr-2 ${isActive ? "bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent" : ""}`
-          }
-        >
-          Home
-        </NavLink>
+        <MyNavLink to={"/"}>Home</MyNavLink>
       </li>
       <li>
-        <NavLink
-          to="/apps"
-          className={({ isActive }) =>
-            `font-semibold mr-2 ${isActive ? "bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent" : ""}`
-          }
-        >
-          Apps
-        </NavLink>
+        <MyNavLink to={"/apps"}>Apps</MyNavLink>
       </li>
       <li>
-        <NavLink
-          to="/install"
-          className={({ isActive }) =>
-            `font-semibold mr-2 ${isActive ? "bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent" : ""}`
-          }
-        >
-          Installation
-        </NavLink>
+        <MyNavLink to={"/install"}>Installation</MyNavLink>
       </li>
     </>
   );
