@@ -5,7 +5,7 @@ const AppsCard = ({ apps }) => {
   return (
     <div className="card bg-base-100 shadow-sm my-4">
       <figure>
-        <img src={apps.image} alt={apps.title} />
+        <img src={apps.image} className="w-[250px] pt-5" alt={apps.title} />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{apps.title}</h2>
