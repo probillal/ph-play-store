@@ -5,7 +5,7 @@ import bannerImage from "../../assets/hero.png";
 const Banner = () => {
   return (
     <div className=" bg-gray-100 pt-5">
-      <div className="my-10">
+      <div className="mt-5">
         <h2 className="text-5xl font-bold text-center mb-4">
           We Build <br /> <span className="text-purple-600">Productive</span>{" "}
           Apps
